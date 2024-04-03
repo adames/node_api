@@ -1,21 +1,22 @@
 {
   "name": "node_api",
   "version": "1.0.0",
-  "description": "node rest api",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "nodejs rest api",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/adames/node_api.git"
   },
   "keywords": [
-    "node",
-    "api"
+    "nodejs",
+    "bootstrap",
+    "express"
   ],
-  "author": "adames hodelin",
-  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "author": "adames hodelin <adames.hodelin@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/adames/node_api/issues"
   },
